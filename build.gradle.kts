@@ -21,6 +21,9 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+    implementation("io.github.microutils:kotlin-logging:1.6.26")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.9.8")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.codehaus.groovy:groovy:2.5.7")
     testImplementation("org.spockframework:spock-core:1.3-groovy-2.5")
