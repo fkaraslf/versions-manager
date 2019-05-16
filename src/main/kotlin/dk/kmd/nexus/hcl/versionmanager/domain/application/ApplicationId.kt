@@ -6,5 +6,6 @@ import java.util.*
 class ApplicationId: EntityId {
     constructor() : super()
     constructor(uuid: UUID) : super(uuid)
+    constructor(uuid: String) : super(uuid)
 }
 
